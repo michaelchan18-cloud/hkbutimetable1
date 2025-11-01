@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #3498db;
+        }
+        .university {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .program {
+            font-size: 1.3em;
+            color: #34495e;
+            margin-bottom: 15px;
+        }
+        .event-details {
+            font-size: 1.1em;
+            color: #2c3e50;
+            line-height: 1.8;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .timetable {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .timetable th, .timetable td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .timetable th {
+            background-color: #3498db;
+            color: white;
+        }
+        .timetable tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        .timetable tr:hover {
+            background-color: #e9f5ff;
+        }
+        .start-time {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="university">Hong Kong Baptist University</div>
+        <div class="program">Master of Science in Data Analytics and Business Economics</div>
+        <div class="event-details">
+            Date: Nov 05<br>
+            Time: 6:30pm - 9:20pm
+        </div>
+    </div>
+
+    <h1>Class Timetable</h1>
+    <table class="timetable">
+        <tr>
+            <th>Time</th>
+            <th>Activity</th>
+        </tr>
+        <tr>
+            <td class="start-time">6:30pm</td>
+            <td>Class start</td>
+        </tr>
+        <tr>
+            <td>6:40pm - 6:45pm</td>
+            <td>Introduction of MBS and IABMS</td>
+        </tr>
+        <tr>
+            <td>6:45pm - 6:48pm</td>
+            <td>Introduction of Top Boss Simulation Game</td>
+        </tr>
+        <tr>
+            <td>6:48pm - 6:55pm</td>
+            <td>Why business plan is essential?</td>
+        </tr>
+        <tr>
+            <td>6:58pm - 7:10pm</td>
+            <td>Introduction of business simulation game concept</td>
+        </tr>
+        <tr>
+            <td>7:15pm - 7:30pm</td>
+            <td>Form team and creation of company name</td>
+        </tr>
+        <tr>
+            <td>7:30pm - 7:55pm</td>
+            <td>Introduction of MBS</td>
+        </tr>
+        <tr>
+            <td>7:55pm - 8:00pm</td>
+            <td>Break</td>
+        </tr>
+        <tr>
+            <td>8:00pm - 8:10pm</td>
+            <td>Round 1 of Level 1</td>
+        </tr>
+        <tr>
+            <td>8:10pm - 8:20pm</td>
+            <td>Result debrief</td>
+        </tr>
+        <tr>
+            <td>8:20pm - 8:32pm</td>
+            <td>Round 2 of Level 1</td>
+        </tr>
+        <tr>
+            <td>8:32pm - 8:37pm</td>
+            <td>Result debrief</td>
+        </tr>
+        <tr>
+            <td>8:37pm - 8:50pm</td>
+            <td>Round 3 of Level 1</td>
+        </tr>
+        <tr>
+            <td>8:50pm - 8:55pm</td>
+            <td>Result debrief</td>
+        </tr>
+        <tr>
+            <td>8:55pm - 9:10pm</td>
+            <td>Round 4 of Level 1</td>
+        </tr>
+        <tr>
+            <td>9:10pm - 9:15pm</td>
+            <td>Result debrief</td>
+        </tr>
+        <tr>
+            <td>9:15pm - 9:20pm</td>
+            <td>Summary</td>
+        </tr>
+    </table>
+</body>
+</html>
